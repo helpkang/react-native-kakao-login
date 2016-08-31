@@ -10,7 +10,34 @@
     "react": "15.2.1",
     "react-native": "0.31.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+   "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "osx",
+    "macos",
+    "ui",
+    "kakao",
+    "login",
+    "oauth",
+    "oauth2.0",
+    "auth"
+  ],
+  "author": {
+    "name": "Sungil Kang",
+    "email": "helpkang@gmail.com"
+  },
+  "homepage": "https://github.com/helpkang/react-native-kakao-login",
+  "bugs": {
+    "url": "https://github.com/helpkang/react-native-kakao-login/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helpkang/react-native-kakao-login.git"
+  },
+  "license": "MIT"
 }

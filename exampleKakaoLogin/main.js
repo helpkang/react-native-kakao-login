@@ -15,7 +15,6 @@ import {
 
 import KakaoLogin from "react-native-kakao-login"
 
-console.log('kakaologin', KakaoLogin)
 
 class exampleKakaoLogin extends Component {
   async login(){

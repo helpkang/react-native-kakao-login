@@ -67,6 +67,13 @@ const styles = StyleSheet.create({
 AppRegistry.registerComponent('exampleKakaoLogin', () => exampleKakaoLogin);
 ```
 
+### 로그인 리턴 값
+
+* accessToken
+* id
+* nickname
+* profile_image
+             
 ## 설치
 * install
 ```
@@ -77,6 +84,9 @@ npm i -S react-native-kakao-login
 ```
 rnpm link react-native-kakao-login
 ```
+
+카카오 페이지를 참조해서 ios, android native 설정 하거나 샘플 참조
+
 
 ## Copyright and license
 

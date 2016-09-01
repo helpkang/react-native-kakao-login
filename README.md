@@ -1,8 +1,9 @@
 # React Native : 카카오 로그인 (kakao login)
-[카카오 로그인](https://developers.kakao.com/docs)
+
+[카카오 로그인] (https://developers.kakao.com/docs)
 
 
-**Note**: 카카오 로그인 샘플 프로젝트 포함 되어 있고 참조하면 됩니다.
+**Note**: react-native 카카오 로그인 샘플 프로젝트 포함 되어 있고 참조하면 됩니다.
 
 ## 사용법
 
@@ -138,6 +139,9 @@ public class MainApplication extends Application implements ReactApplication {
 ```
 
 
+[카카오 android 앱등록](https://developers.kakao.com/docs/android#사용자-관리-앱-연결)
+
+
 ## ios 설치
 ### AppDelegate.m 에 아래 라인 추가
 ```obj-c
@@ -176,8 +180,10 @@ public class MainApplication extends Application implements ReactApplication {
 xcode에서 프로젝트를 열고
 open node_modules/react-native-kakao-login/KakaoSDK
 드래그 & 드롭해서  KakaoOpenSDK.framework을 해서 넣는다.
+![kakao ios framework 등록](./images/kakao_ios_framework.png)
 
-#카카오톡 계정 등록 및 앱키 등록
+
+[카카오 ios 앱등록](https://developers.kakao.com/docs/ios#시작하기-앱-생성)
 
 
 ## Copyright and license

@@ -1,7 +1,6 @@
 # React Native : 카카오 로그인 (kakao login)
-`[카카오 로그인](https://developers.kakao.com/docs)
+[카카오 로그인](https://developers.kakao.com/docs)
 
-`<FBLogin />` provides a [React Native][react-native] component wrapping the native [Facebook SDK login button](https://developers.facebook.com/docs/reference/ios/current/class/FBSDKLoginButton/) and [manager](https://developers.facebook.com/docs/reference/ios/current/class/FBSDKLoginManager/).
 
 **Note**: 카카오 로그인 샘플 프로젝트 포함 되어 있고 참조하면 됩니다.
 
@@ -176,7 +175,7 @@ public class MainApplication extends Application implements ReactApplication {
 ### 카카오 라이브러리 등록
 xcode에서 프로젝트를 열고
 open node_modules/react-native-kakao-login/KakaoSDK
-드래그  KakaoOpenSDK.framework을 해서 넣는다.
+드래그 & 드롭해서  KakaoOpenSDK.framework을 해서 넣는다.
 
 #카카오톡 계정 등록 및 앱키 등록
 

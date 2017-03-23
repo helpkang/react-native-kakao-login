@@ -1,16 +1,16 @@
 {
-  "name": "react-native-kakao-login",
-  "version": "1.0.1",
-  "description": "",
+  "name": "react-native-kakao-login-rn0.41",
+  "version": "1.0.2",
+  "description": "react-native-kakao-login for over react-native version 0.42",
   "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "15.2.1",
-    "react-native": "0.31.0"
+    "react": "~15.4.2",
+    "react-native": "~0.41.0"
   },
-   "keywords": [
+  "keywords": [
     "react-native",
     "react-component",
     "react-native-component",
@@ -27,17 +27,14 @@
     "oauth2.0",
     "auth"
   ],
-  "author": {
-    "name": "Sungil Kang",
-    "email": "helpkang@gmail.com"
-  },
-  "homepage": "https://github.com/helpkang/react-native-kakao-login",
+  "author": "Jeff Gu Kang <jeffgukang@gmail.com>",
+  "homepage": "https://github.com/jeffgukang/react-native-kakao-login",
   "bugs": {
-    "url": "https://github.com/helpkang/react-native-kakao-login/issues"
+    "url": "https://github.com/jeffgukang/react-native-kakao-login/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/helpkang/react-native-kakao-login.git"
+    "url": "git://github.com/jeffgukang/react-native-kakao-login.git"
   },
   "license": "MIT"
 }

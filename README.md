@@ -1,5 +1,11 @@
 # React Native : 카카오 로그인 (kakao login)
 
+React native 0.41 이상을 지원하는 카카오 로그인 모듈입니다.
+
+Original: https://github.com/helpkang/react-native-kakao-login.git
+
+로부터 파생하였습니다.
+
 [카카오 로그인] (https://developers.kakao.com/docs)
 
 
@@ -73,7 +79,7 @@ AppRegistry.registerComponent('exampleKakaoLogin', () => exampleKakaoLogin);
 * id
 * nickname
 * profile_image
-             
+
 ## 설치
 * install
 ```
@@ -151,22 +157,22 @@ public class MainApplication extends Application implements ReactApplication {
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication
          annotation:(id)annotation {
- 
+
   if ([KOSession isKakaoAccountLoginCallback:url]) {
     return [KOSession handleOpenURL:url];
   }
   return NO;
- 
+
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
             options:(NSDictionary<NSString *,id> *)options {
- 
+
   if ([KOSession isKakaoAccountLoginCallback:url]) {
     return [KOSession handleOpenURL:url];
   }
   return NO;
-  
+
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
@@ -189,4 +195,3 @@ open node_modules/react-native-kakao-login/KakaoSDK
 ## Copyright and license
 
 MIT license
-

@@ -83,12 +83,12 @@ AppRegistry.registerComponent('exampleKakaoLogin', () => exampleKakaoLogin);
 ## 설치
 * install
 ```
-npm i -S react-native-kakao-login
+npm i -S react-native-kakao-login-rn0.41
 ```
 
 * native setup
 ```
-rnpm link react-native-kakao-login
+rnpm link react-native-kakao-login-rn0.41
 ```
 
 카카오 페이지를 참조해서 ios, android native 설정 하거나 샘플 참조

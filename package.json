@@ -1,6 +1,6 @@
 {
   "name": "react-native-kakao-login-rn0.41",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "react-native-kakao-login for over react-native version 0.42",
   "main": "index",
   "scripts": {

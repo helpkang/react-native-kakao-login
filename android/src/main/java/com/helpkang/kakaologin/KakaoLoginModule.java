@@ -1,5 +1,6 @@
 package com.helpkang.kakaologin;
 
+import android.app.Activity;
 import android.content.Intent;
 
 import com.facebook.react.bridge.ActivityEventListener;
@@ -45,7 +46,7 @@ public class KakaoLoginModule extends ReactContextBaseJavaModule implements Acti
 
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
         if (Session.getCurrentSession().handleActivityResult(requestCode, resultCode, data)){
             return;
         }

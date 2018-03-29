@@ -43,14 +43,12 @@ public class KakaoLoginModule extends ReactContextBaseJavaModule implements Acti
         this.rkl = new ReactKakaoLogin(reactContext);
     }
 
-
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
         if (Session.getCurrentSession().handleActivityResult(requestCode, resultCode, data)){
             return;
         }
     }
-
 
     @Override
     public void onNewIntent(Intent intent) {

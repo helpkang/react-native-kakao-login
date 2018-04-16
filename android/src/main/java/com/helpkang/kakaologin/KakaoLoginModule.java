@@ -1,5 +1,6 @@
 package com.helpkang.kakaologin;
 
+import android.app.Activity;
 import android.content.Intent;
 
 import com.facebook.react.bridge.ActivityEventListener;

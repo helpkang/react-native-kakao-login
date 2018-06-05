@@ -27,8 +27,6 @@ import com.kakao.usermgmt.callback.MeResponseCallback;
 import com.kakao.usermgmt.response.model.UserProfile;
 import com.kakao.util.exception.KakaoException;
 
-import static com.kakao.usermgmt.UserManagement.requestMe;
-
 //import com.kakao.auth.ErrorResult;
 
 public class ReactKakaoLogin {
@@ -83,7 +81,7 @@ public class ReactKakaoLogin {
      */
     public void logout(final Promise promise) {
         initialize();
-        UserManagement.requestLogout(new LogoutResponseCallback() {
+        UserManagement.getInstance().requestLogout(new LogoutResponseCallback() {
             @Override
             public void onCompleteLogout() {
             }
@@ -133,7 +131,7 @@ public class ReactKakaoLogin {
         @Override
         public void onSessionOpened() {
             Log.v(LOG_TAG, "kakao : SessionCallback.onSessionOpened");
-            requestMe(new MeResponseCallback() {
+            UserManagement.getInstance().requestMe(new MeResponseCallback() {
                 @Override
                 public void onFailure(ErrorResult errorResult) {
                     removeCallback();
@@ -236,11 +234,6 @@ public class ReactKakaoLogin {
         @Override
         public IApplicationConfig getApplicationConfig() {
             return new IApplicationConfig() {
-                @Override
-                public Activity getTopActivity() {
-                    return currentActivity;
-                }
-
                 @Override
                 public Context getApplicationContext() {
                     return currentActivity.getApplicationContext();
